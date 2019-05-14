@@ -71,8 +71,7 @@ public class UserApiControllerTest {
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8));
         
-		verify(userRepositoryService, times(0)).save(profile);
-		//verify(userRepositoryService, times(1)).save(profile);
+		verify(userRepositoryService, times(1)).save(profile);
 		
     }
 
