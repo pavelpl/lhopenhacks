@@ -1,5 +1,7 @@
 README 2nd change!
 
+this change should not trigger the build
+
 # Project Name
 
 The DevOps open hack event is designed to foster learning via implementing DevOps practices with a series of challenges.
